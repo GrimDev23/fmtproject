@@ -4,12 +4,12 @@
       "name": "Win32",
       "includePath": [
         "${workspaceFolder}/**",
-        "C:/Mast/path/vcpkg/installed/x64-windows/include"
+        "C:/grim/tools/vcpkg/installed/x64-windows/include"
       ],
       "defines": [],
       "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.3x.xx/bin/Hostx64/x64/cl.exe",
       "cStandard": "c11",
-      "cppStandard": "c++17",
+      "cppStandard": "c++23",
       "intelliSenseMode": "windows-msvc-x64"
     }
   ],
