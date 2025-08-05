@@ -1,0 +1,3 @@
+C:/Gravix/work/fmtproject/build/CMakeFiles/fmtproject.dir
+C:/Gravix/work/fmtproject/build/CMakeFiles/edit_cache.dir
+C:/Gravix/work/fmtproject/build/CMakeFiles/rebuild_cache.dir
