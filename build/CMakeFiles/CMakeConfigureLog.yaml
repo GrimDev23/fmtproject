@@ -4,62 +4,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:8 (project)"
     message: |
-      The system is: Windows - 10.0.26100 - AMD64
+      The system is: Linux - 6.1.147 - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Program Files/LLVM/bin/clang.exe 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
-      
-      The C compiler identification is Clang, found in:
-        C:/Gravix/work/fmtproject/build/CMakeFiles/4.0.1/CompilerIdC/a.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting C compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting C compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
@@ -67,268 +25,307 @@ events:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is Clang, found in:
-        C:/Gravix/work/fmtproject/build/CMakeFiles/4.0.1/CompilerIdCXX/a.exe
+        /workspace/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
       
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-wmj76q"
-      binary: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-wmj76q"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      VCPKG_INSTALLED_DIR: "C:/Gravix/path/vcpkg/installed"
-      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
-      VCPKG_TARGET_TRIPLET: "x64-windows"
-      Z_VCPKG_ROOT_DIR: "C:/Gravix/path/vcpkg"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-wmj76q'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2bfd7
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2bfd7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_2bfd7.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_2bfd7.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_2bfd7.dir/CMakeCCompilerABI.c.obj -o cmTC_2bfd7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2bfd7.lib -Xlinker /pdb:cmTC_2bfd7.pdb -Xlinker /version:0.0     && cd ."
-        clang version 20.1.6
-        Target: x86_64-pc-windows-msvc
-        Thread model: posix
-        InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_2bfd7.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_2bfd7.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_2bfd7.lib /pdb:cmTC_2bfd7.pdb /version:0.0\x0d
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/LLVM/bin/lld-link
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
-      lld-link: warning: ignoring unknown argument '-v'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
-      lld-link: warning: ignoring unknown argument '-V'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
-      LLD 20.1.6
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-w0m2pn"
-      binary: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-w0m2pn"
+      source: "/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8"
+      binary: "/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
-      VCPKG_INSTALLED_DIR: "C:/Gravix/path/vcpkg/installed"
-      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
-      VCPKG_TARGET_TRIPLET: "x64-windows"
-      Z_VCPKG_ROOT_DIR: "C:/Gravix/path/vcpkg"
+      CMAKE_WARN_DEPRECATED: "FALSE"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-w0m2pn'
+        Change Dir: '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3766e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3766e.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_3766e.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_3766e.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3766e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3766e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3766e.lib -Xlinker /pdb:cmTC_3766e.pdb -Xlinker /version:0.0     && cd ."
-        clang version 20.1.6
-        Target: x86_64-pc-windows-msvc
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35fc0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_35fc0.dir/build.make CMakeFiles/cmTC_35fc0.dir/build
+        gmake[1]: Entering directory '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8'
+        Building CXX object CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Ubuntu clang version 20.1.2 (0ubuntu1)
+        Target: x86_64-pc-linux-gnu
         Thread model: posix
-        InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_3766e.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_3766e.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_3766e.lib /pdb:cmTC_3766e.pdb /version:0.0\x0d
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8 -v -fcoverage-compilation-dir=/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8 -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 20.1.2 based upon LLVM 20.1.2 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward
+         /usr/lib/llvm-20/lib/clang/20/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_35fc0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fc0.dir/link.txt --verbose=1
+        Ubuntu clang version 20.1.2 (0ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35fc0 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.44
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_35fc0
+        gmake[1]: Leaving directory '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/llvm-20/lib/clang/20/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/llvm-20/lib/clang/20/include] ==> [/usr/lib/llvm-20/lib/clang/20/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/llvm-20/lib/clang/20/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/LLVM/bin/lld-link
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35fc0/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_35fc0.dir/build.make CMakeFiles/cmTC_35fc0.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Ubuntu clang version 20.1.2 (0ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8 -v -fcoverage-compilation-dir=/workspace/build/CMakeFiles/CMakeScratch/TryCompile-08HQK8 -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 20.1.2 based upon LLVM 20.1.2 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/llvm-20/lib/clang/20/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_35fc0]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fc0.dir/link.txt --verbose=1]
+        ignore line: [Ubuntu clang version 20.1.2 (0ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35fc0 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_35fc0] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_35fc0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/lib;/usr/lib]
         implicit fwks: []
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
-      lld-link: warning: ignoring unknown argument '-v'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
-      lld-link: warning: ignoring unknown argument '-V'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
-      LLD 20.1.6
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.44
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
-      - "C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:124 (_record_compiler_features_cxx)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
-      - "CMakeLists.txt:3 (project)"
+      - "/usr/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/fmt-src/CMakeLists.txt:237 (check_cxx_compiler_flag)"
     checks:
-      - "Detecting CXX compile features"
+      - "Performing Test HAS_NULLPTR_WARNING"
     directories:
-      source: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-hrmgic"
-      binary: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-hrmgic"
+      source: "/workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU"
+      binary: "/workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      VCPKG_INSTALLED_DIR: "C:/Gravix/path/vcpkg/installed"
-      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
-      VCPKG_TARGET_TRIPLET: "x64-windows"
-      Z_VCPKG_ROOT_DIR: "C:/Gravix/path/vcpkg"
+      CMAKE_MODULE_PATH: "/workspace/build/_deps/fmt-src/support/cmake"
+      CMAKE_WARN_DEPRECATED: "FALSE"
     buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
+      variable: "HAS_NULLPTR_WARNING"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-hrmgic'
+        Change Dir: '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_cbd8d
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_cbd8d.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_cbd8d.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_cbd8d.dir/feature_tests.cxx.obj -c C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-hrmgic/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_cbd8d.dir/feature_tests.cxx.obj -o cmTC_cbd8d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cbd8d.lib -Xlinker /pdb:cmTC_cbd8d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed5ac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ed5ac.dir/build.make CMakeFiles/cmTC_ed5ac.dir/build
+        gmake[1]: Entering directory '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU'
+        Building CXX object CMakeFiles/cmTC_ed5ac.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_NULLPTR_WARNING  -std=c++17   -Wzero-as-null-pointer-constant -MD -MT CMakeFiles/cmTC_ed5ac.dir/src.cxx.o -MF CMakeFiles/cmTC_ed5ac.dir/src.cxx.o.d -o CMakeFiles/cmTC_ed5ac.dir/src.cxx.o -c /workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU/src.cxx
+        Linking CXX executable cmTC_ed5ac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5ac.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ed5ac.dir/src.cxx.o -o cmTC_ed5ac
+        gmake[1]: Leaving directory '/workspace/build/CMakeFiles/CMakeScratch/TryCompile-CwObiU'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
-      - "C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:132 (_record_compiler_features_cxx)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compile features"
+      - "/usr/share/cmake-3.31/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:49 (check_ipo_supported)"
     directories:
-      source: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-mu3uvp"
-      binary: "C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-mu3uvp"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      VCPKG_INSTALLED_DIR: "C:/Gravix/path/vcpkg/installed"
-      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
-      VCPKG_TARGET_TRIPLET: "x64-windows"
-      Z_VCPKG_ROOT_DIR: "C:/Gravix/path/vcpkg"
+      source: "/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
     buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-mu3uvp'
+        Change Dir: '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_16ec9
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_16ec9.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_16ec9.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_16ec9.dir/feature_tests.cxx.obj -c C:/Gravix/work/fmtproject/build/CMakeFiles/CMakeScratch/TryCompile-mu3uvp/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_16ec9.dir/feature_tests.cxx.obj -o cmTC_16ec9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_16ec9.lib -Xlinker /pdb:cmTC_16ec9.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+        /usr/bin/cmake -S/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        gmake[2]: Entering directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        gmake[2]: Leaving directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        gmake[2]: Entering directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/bin/c++   -flto=thin -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/llvm-ar-20" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/bin/llvm-ranlib-20" libfoo.a
+        gmake[2]: Leaving directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        gmake[2]: Entering directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        gmake[2]: Leaving directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        gmake[2]: Entering directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/bin/c++   -flto=thin -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/c++ -flto=thin CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        gmake[2]: Leaving directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        gmake[1]: Leaving directory '/workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /workspace/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
         
       exitCode: 0
 ...
