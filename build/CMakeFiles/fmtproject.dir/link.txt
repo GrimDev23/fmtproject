@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -flto=thin -Wl,-O1 -Wl,--gc-sections -Wl,--as-needed -s -Xlinker --dependency-file=CMakeFiles/fmtproject.dir/link.d CMakeFiles/fmtproject.dir/main.cpp.o -o fmtproject
